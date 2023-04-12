@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    padding: 50px;
+    background-color: lightblue;
+}
+
+main {
+    display: flex;
+}
+
+.left {
+    padding: 20% 25%;
+    background-color: cadetblue;
+}
+
+.right {
+    padding: 20% 25%;
+    background-color: orange;
+}
+
+footer {
+    display: flex;
+    padding: 50px;
+    background-color: darkgrey;
+}

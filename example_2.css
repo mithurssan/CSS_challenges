@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    padding: 50px;
+    background-color: lightblue;
+}
+
+main {
+    display: flex;
+}
+
+.left {
+    padding: 20% 16.66%;
+    background-color: cadetblue;
+}
+
+.middle {
+    padding: 20% 16.66%;
+    background-color: lightpink;
+}
+
+.right {
+    padding: 20% 16.66%;
+    background-color: cadetblue;
+}
+
+footer {
+    padding: 50px;
+    background-color: darkgrey;
+}

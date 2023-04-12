@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+header {
+    width: 1fr;
+    padding: 50px;
+    background-color: lightblue;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(15, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    height: 100vh;
+}
+
+article {
+    padding: 50px;
+    background-color: lightpink;
+    grid-column: 1/6;
+    grid-row: 1/3;
+}
+
+.top-left {
+    background-color: cadetblue;
+    grid-area: top-left;
+    grid-column: 6/10;
+    grid-row: 1/2;
+
+}
+
+.top-right {
+    background-color: gold;
+    grid-area: top-right;
+    grid-column: 11/16;
+    grid-row: 1/2;
+}
+
+.bottom {
+    padding: 100px;
+    background-color: orange;
+    grid-area: bottom;
+    grid-column: 6/16;
+    grid-row: 2/2;
+}
